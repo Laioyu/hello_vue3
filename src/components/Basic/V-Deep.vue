@@ -1,3 +1,10 @@
+<!--在style经常用scoped属性实现组件的私有化时，要改变element-ui某个深层元素（eg:.el-input__inner）或其他深层样式时，需要使用::deep()-->
+<!--深度作用选择器 >>>-->
+<!--（注意，只作用于css）-->
+<!--但如果是sass/less的话可能无法识别，这时候需要使用 /deep/和::v-deep 选择器。-->
+<!--想修改element-ui某个深层元素也有其他方式解决；-->
+<!--解决方法之一：除非你将 scoped 移除，或者新建一个没有 scoped 的 style（一个.vue文件允许多个style）-->
+
 <template>
   <v-slider
     :ticks="tickLabels"
@@ -45,7 +52,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "CameraFov",
+  name: "V-Deep",
   data() {
     return {
       tickLabels: {
