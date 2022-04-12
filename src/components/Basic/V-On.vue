@@ -1,8 +1,8 @@
 html里面的元素都有全套的事件https://stackoverflow.com/questions/7284379/which-dom-events-can-be-bound-to-a-div-element
 
 <template>
-  <div v-on:click="testvon" :class="wrapper">{{ count }}</div>
-  <div @click="testvon" :class="wrapper">{{ count }}</div>
+  <div v-on:click="testVOn" :class="wrapper">{{ count }}</div>
+  <div @click="testVOn" :class="wrapper">{{ count }}</div>
 </template>
 
 <script lang="ts">
@@ -16,7 +16,7 @@ export default defineComponent({
     };
   },
   methods: {
-    testvon() {
+    testVOn() {
       this.count++;
     },
   },

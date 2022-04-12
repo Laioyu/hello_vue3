@@ -54,6 +54,11 @@ const router = createRouter({
       name: "formModifier",
       component: () => import("../components/Basic/FormModifier.vue"),
     },
+    {
+      path: "/eventModifier",
+      name: "eventModifier",
+      component: () => import("../components/Basic/EventModifier.vue"),
+    }
   ],
 });
 
