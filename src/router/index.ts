@@ -49,6 +49,11 @@ const router = createRouter({
       name: "v-on",
       component: () => import("../components/Basic/V-On.vue"),
     },
+    {
+      path: "/formModifier",
+      name: "formModifier",
+      component: () => import("../components/Basic/FormModifier.vue"),
+    },
   ],
 });
 
