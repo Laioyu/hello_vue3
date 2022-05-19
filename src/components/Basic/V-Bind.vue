@@ -13,7 +13,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   data() {
     return {
-      wrapper: "wrapper",//如果没定义这个属性，:class="wrapper"是找不到.wrapper
+      wrapper: "wrapper", //如果没定义这个属性，:class="wrapper"是找不到.wrapper
       dynamicId: "testId",
       isButtonDisabled: false, //true //"true"
       message: "123abc456edf789",

@@ -20,7 +20,8 @@
   ></v-slider>
   <div class="fov-labels__container">
     <div class="fov-labels__item">
-      <v-icon style="font-size: 0.7rem">mdi-triangle</v-icon><span style="display: block">sss</span>
+      <v-icon style="font-size: 0.7rem">mdi-triangle</v-icon
+      ><span style="display: block">sss</span>
     </div>
     <div class="fov-labels__item">
       <div><div></div></div>

@@ -58,7 +58,12 @@ const router = createRouter({
       path: "/eventModifier",
       name: "eventModifier",
       component: () => import("../components/Basic/EventModifier.vue"),
-    }
+    },
+    {
+      path: "/reactiveFundamentals",
+      name: "reactiveFundamentals",
+      component: () => import("../components/Basic/ReactiveFundamentals.vue"),
+    },
   ],
 });
 
