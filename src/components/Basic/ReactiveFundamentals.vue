@@ -97,7 +97,7 @@ console.log(state2.count2);
 let count2 = state2.count2;
 // does not affect original state
 count2++;
-  console.log(state2.count2);
+console.log(state2.count2);
 
 // the function receives a plain number and
 // won't be able to track changes to state.count
@@ -118,5 +118,4 @@ console.log(countRef.value); // 0
 
 countRef.value++;
 console.log(countRef.value); // 1
-
 </script>
